@@ -25,13 +25,15 @@ header{
 .tel{
 	float: left;
 	display: block;
-	margin-right: 15px;
+	margin-right: 14px;
 	font: 18px Arial; 
 	letter-spacing: 0.5px;
 	color: #5e696d;
 	padding-top: 23px; 
 }
+
 /*REGISTR*/
+
 .registr{
 	float: left;
 	width: 495px;
@@ -40,42 +42,45 @@ header{
 	background-image: url(images/avtoriz.jpg);
 	border-radius: 3px;
 	box-shadow: 0px 3px 5px 0px #4e647a;
-
 }
 
 .figyra{
 	float: left;
-	padding: 4px 7px;
+	padding: 3px 7px;
 }
 
 .form1{
-	display: block;
-	float: left;
-	width: 104px;
-	padding-left: 5px;
-	font-size: 11px;
-	margin: 3px 7px 0 -2px;
+    display: block;
+    float: left;
+    width: 107px;
+    height: 12px;
+    padding-left: 4px;
+    font-size: 11px;
+    margin: 3px 6px 0 -3px;
+
 }
 .form2{
 	display: block;
 	float: left;
 	width: 108px;
-	
-	padding-left: 4px;
+	height: 12px;
+	padding-left: 2px;
 	font-size: 11px;
 	margin-top: 3px;
-
 }
+
 
 /*VXOD*/
+
 .vxod{
 	padding-top: 3px;
+	display: block;
+	
 }
 .vxod p{ 
-	display: block;
 	float: left;
-	margin: 0 -3px 0 8px;
 	height: 18px; 
+	margin-left: -5px;
 	font-size: 11px;
 	font-family: Lucida Sans;
 	color: #ffffff;
@@ -83,16 +88,25 @@ header{
 	letter-spacing: 0.8px;
 }
 .vxod a{
+	display: block;
 	text-decoration: none;
 	font-family: Lucida sans-serif;
 	color: #ffffff;
 }
+.vxod-submit{
+	float: left;
+	border: none;
+	background: none;
+	font-size: 11px;
+	color: #fff;
+	margin: 4px 4px;
+}
 
 .parol a{
 	color: #bfbfbf;
-	font-size: 12px;
-	text-decoration: underline;
-	margin-left: 17px;
+    font-size: 13px;
+    text-decoration: underline;
+    margin-left: 26px;
 }
 /*KNOPKI*/
 .knopki{
@@ -141,15 +155,25 @@ header{
 	width: 620px;
 	float: left;
 	text-align: right;
+	
 }
-
+.pat-1 ul li{
+	padding: 0 6px;
+}
+.pat-1 ul li a{
+	font-size: 13px;
+	font-family: Lucida Sans Unicode;
+	padding: 0 8px;
+}
 nav li{
     display: inline-block;
     position: relative;
+    padding: 0 5px;
+
 }
 nav li a{
 	line-height: 33px;
-	padding: 0 8px;
+
 	font-size: 14px;
 	text-transform: uppercase;
 	font-size: Lucida Sans Unicode;
@@ -173,12 +197,11 @@ nav li a:hover{
 }
 .pat-2 p {
 	text-align: right;
-	margin-right: 14px;
+	margin-right: 10px;
 }
 .pat-2 a:hover{
 	text-decoration: none;
 }
-
 
 /*CONTENT*/
 .content{
@@ -193,7 +216,7 @@ nav li a:hover{
 	float: left;
 	margin-top: 163px;
 }
-main{
+article{
 	position: relative;
 	width: 528px;
 	height: 610px;
@@ -239,7 +262,7 @@ aside{
     margin: 2px 0 0 4px;
 }
 .menu-2{
-	margin-top: 13px;
+	margin-top: 14px;
 	text-transform: uppercase;
 
 }
@@ -247,86 +270,45 @@ aside{
 .menu-2>ul>li a{
 	display: block;
 	width: 147px;
-	/*height: 28px;*/
+	height: 26px;
 	border: 1px solid #949fa4;
 	border-radius: 30px;
 	line-height: 28px;
-	padding-left: 3px;
+	padding-left: 5px;
 	color: #114165;
+	font-family: Lucida Sans Unicode;
 }
-
 .menu-2 a{
 	color: #114165;
-
-}
-.podmenu-2{
-	display: block;
-	margin-left: 47px;
-	text-transform: none;
-	font-size: 12px;
-	margin: 1px 0 -6px 47px;
-}
-.podmenu-2 li{
-	height: 26px;
-	line-height: 20px; 
-}
-.podmenu-3{
-	display: block;
-	margin-left: 47px;
-	text-transform: none;
-	font-size: 12px;
-	margin-top: 1px;
-}
-.podmenu-3 li{
-	height: 26px;
-	line-height: 20px; 
 }
 .podmenu{
 	display: block;
 	text-transform: none;
 	font-size: 12px;
-	margin: -2px 0 -6px 47px;
+	margin: 1px 0 -6px 52px;
 }
 .podmenu li{
 	height: 26px;
-	line-height: 23px; 
+	line-height: 21px; 
+	text-indent: -4px;
 }
-
 .podmenu li a:hover{
 	text-decoration: underline;
 	font-style: italic;
 	font-weight: bold;
 }
-.podmenu-2 li a:hover{
-	text-decoration: underline;
-	font-style: italic;
-	font-weight: bold;
-}
-.podmenu-3 li a:hover{
-	text-decoration: underline;
-	font-style: italic;
-	font-weight: bold;
-}
 
-/*SECOND!!!!*/
-.goodyear{
-	width: 175px;
+/*FIGURE*/
+
+figure{
+	float: left;
+    width: 175px;
     height: 205px;
-    float: left;
     padding: 7px 0;
-    margin: -8px 0 -9px 1px;
+    margin: -11px -7px -5px 0px;
     text-align: center;
 }
-.goodyear-2{
-	width: 175px;
-    height: 205px;
-    float: left;
-    padding-top: 7px;
-	margin: -8px 0 -9px -7px;
-	text-align: center;
-}
-
-.goodyear a:hover{
+figcaption a:hover{
 	text-decoration: none;
 }
 .cena{
@@ -344,11 +326,11 @@ aside{
     border: 1px solid #000000;
     border-radius: 5px;
     line-height: 130px;
-    margin: 0px 0 3px 24px;
+    margin: 5px 0 -5px 24px;
     background: #fff;
 }
 .goodyear-img img{
-    margin: 3px 31px 8px;
+    margin: 1px 27px 8px;
 }
 .goodyear-img-3{
 	width: 136px;
@@ -363,25 +345,20 @@ aside{
 .goodyear-img-3 img{
 	margin: 1px 26px 4px;
 }
-.goodyear p{
+figcaption{
 	text-align: center;
 	font-family: Arial;
 	font-size: 13px;
-	line-height: 11px;
+	line-height: 4px;
+	
 }
-.goodyear-2 p{
-	text-align: center;
-	font-family: Arial;
-	font-size: 13px;
-	line-height: 11px;
+figcaption a{
+	color: #206988;
+}
+figcaption h2{
+	color: #206988;
 }
 
-.goodyear h2 a{
-	color: #206988;
-}
-.goodyear-2 h2 a{
-	color: #206988;
-}
 /*ASIDE*/
 
 
@@ -423,11 +400,9 @@ aside{
 }
 
 /*FIGURE*/
-figure{
+.firma{
 	margin: 0 111px;
 	padding: 0;
-
-	
 }
 .vse-brend p{
 	display: block;
